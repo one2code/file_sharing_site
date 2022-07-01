@@ -1,2 +1,4 @@
 # file_sharing_site
-A protected file sharing site that allows the user to securely upload a file.
+A protected file sharing site that allows the user to securely upload a file. The layout is a neobrutalist design built out in Tailwind CSS, with a simple Home and About page explaining the aim of the project. The app itself is built out in React Typescript, compiled with Vite. On the backend, the app will use Express for the server, connected to a Mongo database with Mongoose. The file encryption is managed by a library called Bcrypt.
+
+I will be slowly adding to this project as I have time and learn more about connecting a React frontend to an Express/Mongo backend. Right now, I just have the initial layout design completed for desktop and the initial server logic. During the next round of updates, I will focus on the mobile design before beginning to write out more of the server side logic.
